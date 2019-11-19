@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+@media (max-width: 1200px) {
+body {
+    margin-top: 50px;
+}
+  .navbar{
+    position: fixed;
+    right: 0;
+    left: 0;   
+    border-radius: 0;
+    top: 0;
+  }      
+}
+
